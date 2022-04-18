@@ -9,10 +9,10 @@ return this._name;
 }
 // setter
 set name(newName) {
-this._name =newName;
+this._name = newName;
 }
 occupation() {
-return `${this.name} is philantropist!`
+return `${this._name} is philantropist!`;
 }
 }
  class Facebook extends Microsoft {
@@ -21,7 +21,7 @@ return `${this.name} is philantropist!`
     this.age = age;
   }
   studentAge() {
-    return `${this.name} is ${this.age}`;
+    return `${this._name} is ${this.age}`;
        }
   }
   let henry = new Microsoft("William Henry Gates III");

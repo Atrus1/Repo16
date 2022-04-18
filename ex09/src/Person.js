@@ -5,10 +5,9 @@ class Person {
     this._age = age;
     }
     getPerson() {
-        var personInfo = `Name: ${this._name}, email: ${this._email} age: ${this._age}`;
+        var personInfo = `Name: ${this._name}, email: ${this._email}, age: ${this._age}`;
     return personInfo;
+        }
     }
-    }
-    let person = new Person("John", "john@example.com", "35");
-    console.log(person.getPerson());
+    
     module.exports = Person;

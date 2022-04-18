@@ -6,7 +6,6 @@ const firstName = (firstName) => {
     return lastName.toLowerCase();
   }
 
- console.log(firstName("Text"));
- console.log(lastName("Text"));
+ 
  exports.firstName = firstName;
  exports.lastName = lastName;
